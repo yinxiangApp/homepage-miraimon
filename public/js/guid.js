@@ -24,7 +24,7 @@ function resizeBox(id, percentage) {
 };
 
 $(function() {
-    addOnePicture(true, "./img/miraimon.png");
+    // addOnePicture(true, "./img/miraimon.png");
     addOnePicture(true, "http://up.gc-img.net/post_img_web/2014/11/02773f6205e9ff5698329c26f2fe0b26_10725.png");
     addOnePicture(true, "http://up.gc-img.net/post_img_web/2014/11/b1735a2213f9282578ee029d10196d56_12350.jpeg");
     addOnePicture(true, "http://up.gc-img.net/post_img_web/2014/11/e0d27d44dba2db5aafd2a2f174ae4ec6_9204.jpeg");
