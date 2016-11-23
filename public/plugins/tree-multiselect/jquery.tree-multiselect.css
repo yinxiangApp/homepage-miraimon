@@ -1,0 +1,107 @@
+/* jQuery Tree Multiselect v2.0.0 | (c) Patrick Tsai | MIT Licensed */
+div.tree-multiselect {
+  border: 0px;
+  display: table;
+  height: inherit;
+  width: 100%;
+  max-width: 500px; }
+  div.tree-multiselect > div.selected,
+  div.tree-multiselect > div.selections {
+    /*display: inline-block;*/
+    vertical-align: top;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: table-cell;
+    padding: 5px 10px 5px 10px;
+    width: 50%; }
+  div.tree-multiselect > div.selections {
+    border-right: solid 2px #d2d6de; }
+    /*div.tree-multiselect > div.selections div.item {
+      margin-left: 20px; }*/
+      div.tree-multiselect > div.selections div.item label {
+        cursor: pointer; }
+    div.tree-multiselect > div.selections.no-border {
+      border-right: none; }
+  div.tree-multiselect > div.selected > div.item {
+    padding: 2px 5px 2px 5px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 3px;
+    border-top: 0;
+    border-top-color: #d2d6de;
+    border: 1px solid #d2d6de;
+    color: #000000;
+    background: #d2d6de;
+    background-color: #d2d6de; }
+  div.tree-multiselect > div.selected.ui-sortable > div.item:hover {
+    cursor: move; }
+  div.tree-multiselect div.section > div.section,
+  div.tree-multiselect div.section > div.item {
+    padding-left: 20px; }
+  div.tree-multiselect div.title,
+  div.tree-multiselect div.item {
+    margin-bottom: 2px; }
+  div.tree-multiselect div.title {
+    border-radius: 3px;
+    border-top: 0;
+    width: 100%;
+    border-top-color: #3c8dbc;
+    border: 1px solid #3c8dbc;
+    color: #ffffff;
+    background: #3c8dbc;
+    background-color: #3c8dbc;
+    margin-bottom: 5px;
+    padding: 2px; }
+    div.tree-multiselect div.title > * {
+      display: inline-block; }
+    div.tree-multiselect div.title > span.collapse-section {
+      margin: 0 3px;
+      width: 8px; }
+    div.tree-multiselect div.title:hover {
+      cursor: pointer; }
+  div.tree-multiselect input[type=checkbox] {
+    display: inline;
+    margin-right: 5px; }
+    div.tree-multiselect input[type=checkbox]:hover {
+      cursor: pointer; }
+  div.tree-multiselect span.remove-selected,
+  div.tree-multiselect span.description {
+    padding: 0 3px;
+    margin-right: 5px;
+    background: #676767;
+    color: #ffffff;
+    border-radius: 2px; }
+  div.tree-multiselect span.remove-selected:hover {
+    cursor: pointer; }
+  div.tree-multiselect span.description:hover {
+    cursor: help; }
+  div.tree-multiselect div.temp-description-popup {
+    background: #d2d6de;
+    padding: 5px;
+    border: 2px solid #676767;
+    border-radius: 3px; }
+  div.tree-multiselect span.section-name {
+    float: right;
+    font-style: italic; }
+  div.tree-multiselect .select-all-container span.select-all,
+  div.tree-multiselect .select-all-container span.unselect-all {
+    padding-right: 5px;
+    margin-right: 5px; }
+    div.tree-multiselect .select-all-container span.select-all:hover,
+    div.tree-multiselect .select-all-container span.unselect-all:hover {
+      cursor: pointer; }
+  div.tree-multiselect .select-all-container span.select-all {
+    border-right: 2px solid #d2d6de; }
+.item-label {
+  border-radius: 3px;
+  border-top: 0;
+  width: 100%;
+  border-top-color: #d2d6de;
+  border: 1px solid #d2d6de;
+  color: #000000;
+  background: #d2d6de;
+  background-color: #d2d6de;
+}
+.title-left-padding {
+  padding-left: 10px;
+}

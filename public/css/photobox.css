@@ -1,0 +1,192 @@
+/*.main-footer {
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    z-index: 999;
+    padding: 0px;
+    overflow-x: auto;
+}*/
+#page-header,#page-tool,#page-filter,#page-analysis,#page-view {
+    margin-top: -50px;
+    padding-top: 50px;
+}
+@media (max-width: 767px) {
+    #page-header,#page-tool,#page-filter,#page-analysis,#page-view {
+        margin-top: -100px;
+        padding-top: 100px;
+    }
+}
+.chart {
+    display: block;
+    height: 240px;
+}
+.flot-chart {
+    display: block;
+    height: 240px;
+}
+.flot-chart-content {
+    width: 100%;
+    height: 100%;
+}
+.box-body {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.picture-box {
+    width: 320px;
+    margin: 0px 10px 20px 10px;
+    padding: 5px;
+    height: auto;
+}
+.picture-box-mini {
+    width: 100px;
+    margin: 0px 5px 10px 5px;
+    padding: 2px;
+    height: auto;
+    max-height: 100%;
+}
+.resize-picture {
+    max-width: 100%;
+	display: block;
+	height: auto !important;
+    margin: auto;
+}
+.multi-panel {
+    padding: 0px;
+}
+.img-timeline-header {
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+}
+.btn-date-range {
+    width: 60px;
+}
+.timeline-header {
+    color: #3c763d !important;
+    background-color: #dff0d8;
+}
+.timeline-header-selected {
+    color: #a94442 !important;
+    background-color: #f2dede;
+}
+.picture-container {
+	display: flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-direction: row;
+	-moz-flex-direction: row;
+	-o-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+    color: #3c763d !important;
+    background-color: #dff0d8;
+}
+.picture-container-selected {
+	display: flex;
+	display: -moz-flex;
+	display: -o-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	flex-direction: row;
+	-moz-flex-direction: row;
+	-o-flex-direction: row;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+    color: #a94442 !important;
+    background-color: #f2dede;
+}
+.timeline > li > .btn-date-range-before {
+    width: 55px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    color: #fff;
+    background: #00a65a;
+    border-radius: 3px;
+    text-align: center;
+    left: 5px;
+    position: absolute;
+    top: 20px;
+}
+.timeline > li > .btn-date-range-ago {
+    width: 55px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    color: #fff;
+    background: #00a65a;
+    border-radius: 3px;
+    text-align: center;
+    left: 5px;
+    position: absolute;
+    top: -10px;
+}
+.timeline > li > .btn-date-selected-before {
+    width: 55px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    color: #fff;
+    background: #00a65a;
+    border-radius: 3px;
+    text-align: center;
+    left: 5px;
+    position: absolute;
+    top: 20px;
+}
+.timeline > li > .btn-date-selected-ago {
+    width: 55px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    color: #fff;
+    background: #00a65a;
+    border-radius: 3px;
+    text-align: center;
+    left: 5px;
+    position: absolute;
+    top: -10px;
+}
+.timeline > li > .btn-date-add {
+    width: 55px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    color: #fff;
+    background: #dd4b39;
+    border-radius: 3px;
+    text-align: center;
+    left: 5px;
+    position: absolute;
+    top: 70px;
+}
+.timeline > li > .btn-date-remove {
+    width: 55px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    color: #fff;
+    background: #dd4b39;
+    border-radius: 3px;
+    text-align: center;
+    left: 5px;
+    position: absolute;
+    top: 70px;
+}
+.text-cust-color {
+    color: #000000;
+}
+.btn-tool {
+    margin-right: 30px;
+}

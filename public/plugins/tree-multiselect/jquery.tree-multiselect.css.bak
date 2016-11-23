@@ -1,0 +1,97 @@
+/* jQuery Tree Multiselect v2.0.0 | (c) Patrick Tsai | MIT Licensed */
+div.tree-multiselect {
+  border: 0px;
+  display: table;
+  height: inherit;
+  width: 100%; }
+  div.tree-multiselect > div.selected,
+  div.tree-multiselect > div.selections {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: table-cell;
+    padding: 1%;
+    width: 50%; }
+  div.tree-multiselect > div.selections {
+    border: 0px; }
+    div.tree-multiselect > div.selections div.item {
+      /*font-weight: normal;
+      font-style: normal;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+      font-size: 16px;
+      /*vertical-align: top;*/
+
+      margin-left: 18px; }
+      div.tree-multiselect > div.selections div.item label {
+        cursor: pointer; }
+    div.tree-multiselect > div.selections.no-border {
+      border-right: none; }
+  div.tree-multiselect > div.selected > div.item {
+    padding: 2px 5px;
+    border: 0px;
+    background: #EAEAEA;
+    }
+  div.tree-multiselect > div.selected.ui-sortable > div.item:hover {
+    cursor: move; }
+  div.tree-multiselect div.section > div.section,
+  div.tree-multiselect div.section > div.item {
+    vertical-align: middle;
+    margin-left: 12px; }
+  div.tree-multiselect div.title,
+  div.tree-multiselect div.item {
+    margin-bottom: 2px; }
+  div.tree-multiselect div.title {
+    padding: 2px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border: 0px;
+
+    /*background: #777;
+    color: white;
+    padding: 2px;*/
+    }
+    div.tree-multiselect div.title > * {
+      display: inline-block; }
+    div.tree-multiselect div.title > span.collapse-section {
+      margin: 2px 2px 2px 5px;
+      width: 18px;
+      padding: 2px 3px 2px 3px;
+    }
+    div.tree-multiselect div.title:hover {
+      cursor: pointer; }
+  div.tree-multiselect input[type=checkbox] {
+    display: inline;
+    margin-right: 5px; }
+    div.tree-multiselect input[type=checkbox]:hover {
+      cursor: pointer; }
+  div.tree-multiselect span.remove-selected,
+  div.tree-multiselect span.description {
+    padding: 0 3px;
+    margin-right: 5px;
+    background: #777;
+    color: white;
+    border-radius: 2px; }
+  div.tree-multiselect span.remove-selected:hover {
+    cursor: pointer; }
+  div.tree-multiselect span.description:hover {
+    cursor: help; }
+  div.tree-multiselect div.temp-description-popup {
+    background: #EAEAEA;
+    padding: 5px;
+    border: 2px solid #676767;
+    border-radius: 3px; }
+  div.tree-multiselect span.section-name {
+    float: right;
+    /*font-style: italic;*/
+  }
+  div.tree-multiselect .select-all-container span.select-all,
+  div.tree-multiselect .select-all-container span.unselect-all {
+    padding-right: 5px;
+    margin-right: 5px; }
+    div.tree-multiselect .select-all-container span.select-all:hover,
+    div.tree-multiselect .select-all-container span.unselect-all:hover {
+      cursor: pointer; }
+  div.tree-multiselect .select-all-container span.select-all {
+    border-right: 2px solid #D8D8D8; }

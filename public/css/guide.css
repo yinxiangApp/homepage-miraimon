@@ -1,0 +1,55 @@
+
+.content {
+    padding: 0px;
+    width: 100% !important;
+    height: 600px !important;
+}
+#main-galary {
+    width: 100%;
+    height: 100%;
+}
+.picture-box {
+    position: absolute;
+    float: left;
+    width: 200px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    cursor: move !important;
+    
+    /*border: 1px solid #d2d6de;
+    border-radius: 3px;
+    border-top: 3px solid;
+    border-top-color: #3c8dbc;
+    background: #ffffff;
+    color: #444444;*/
+}
+.picture-box-fixer {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.resize-picture {
+    max-width: 100%;
+    max-height: 100%;
+	display: block;
+	height: auto !important;
+    margin: auto;
+}
+.picture-box:hover img {
+    opacity:0.9;
+}
+
+.picture-box:hover .resizer {
+    display: block;
+}
+.picture-box .resizer {
+    position: absolute;
+    display: none;
+}
+.picture-box .resizer {
+    top: 5px;
+    left: 5px;
+}
