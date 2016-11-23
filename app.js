@@ -71,3 +71,5 @@ function getJsFileTimestamp(filePath) {
 app.locals.getJsFileTimestamp = getJsFileTimestamp;
 
 module.exports = app;
+
+// by yx
